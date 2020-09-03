@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock, Paper, Scissors</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <content>
+            <h1>Rock, Paper, Scissors</h1>
+            <div class="scoreboard">
+                <h1>YOU</h1>
+                <div class="score" id="left-score">0</div><div class="score" id="right-score">0</div>
+                <h1>CPU</h1>
+            </div>
+            <div class="emojis-line">
+                <span class="emoji" id="left-emoji">✌️</span>
+                <span class="line">|</span>
+                <span class="emoji" id="right-emoji">✌️</span>
+            </div>
+            <div class="play-area">
+                <div class="buttons">
+                    <button id="rock">ROCK</button>
+                    <button id="paper">PAPER</button>
+                    <button id="scissors">SCISSORS</button>
+                </div>
+                <p>First to 5 points wins!</p>
+            </div>
+        </content>
+        <script src="game.js"></script>
+    </body>
+</html>
