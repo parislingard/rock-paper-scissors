@@ -1,5 +1,5 @@
-# rock-paper-scissors
+# Rock, Paper, Scissors
  The Odin Project JavaScript Rock, Paper, Scissors Assignment
 
-# Skills learned
+# Skills Used
 HTML5, CSS3, JavaScript
