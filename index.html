@@ -5,10 +5,10 @@
         <title>Rock, Paper, Scissors</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" href="favicon.ico" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     </head>
     <body>
-        <content>
-            <h1>Rock, Paper, Scissors</h1>
+            <h1>Rock! Paper! Scissors!</h1>
             <div class="scoreboard">
                 <h1>YOU</h1>
                 <div class="score" id="left-score">0</div><div class="score" id="right-score">0</div>
@@ -16,18 +16,16 @@
             </div>
             <div class="emojis-line">
                 <span class="emoji" id="left-emoji">✌️</span>
-                <span class="line">|</span>
                 <span class="emoji" id="right-emoji">✌️</span>
             </div>
             <div class="play-area">
                 <div class="buttons">
-                    <button id="rock">ROCK</button>
-                    <button id="paper">PAPER</button>
-                    <button id="scissors">SCISSORS</button>
+                    <button id="rock"><i class="fas fa-hand-rock"></i></button>
+                    <button id="paper"><i class="fas fa-hand-paper"></i></button>
+                    <button id="scissors"><i class="fas fa-hand-scissors"></i></button>
                 </div>
                 <p>First to 5 points wins!</p>
             </div>
-        </content>
         <script src="game.js"></script>
     </body>
 </html>
